@@ -1,0 +1,1 @@
+An application built using AngularJS, including modules, controllers, directives, and services. Called Github Viewer, it utilizes the Github API. Credit to Scott Allen for the lesson that helped me create this (http://odetocode.com/blogs/scott/).

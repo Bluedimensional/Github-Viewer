@@ -1,0 +1,8 @@
+<div>
+    <p>Search using a Github username to display their name, picture, and repository list. The list can be sorted via the dropdown.</p>
+    {{ countdown }}
+    <form name="searchUser" ng-submit="search(username)">
+        <input type="search" required="" placeholder="Username to find" ng-model="username" />
+        <input type="submit" value="Search" />
+    </form>
+</div>

@@ -1,0 +1,21 @@
+<a href="#/main">Back to search</a>
+<a href="#/user/{{repo.owner.login}}">Back to {{repo.owner.login}}</a>
+<h2>{{repo.name}}</h2>
+
+<div>
+  Issues: {{repo.open_issues_count}}
+</div>
+
+<div class="repo-details-container">
+  
+    <div class="repo-details-container-user" ng-repeat="user in repo.contributors">
+      <div>{{user.login}}</div>
+      <div id="user-avatar"><img src="https://avatars.githubusercontent.com/u/{{user.id}}" alt="{{user.login}}"></div>
+      
+    </div>
+      
+ 
+</div>
+
+<footer class="back-links"><a href="#/main">Back to search</a>
+<a href="#/user/{{repo.owner.login}}">Back to {{repo.owner.login}}</a></footer>
